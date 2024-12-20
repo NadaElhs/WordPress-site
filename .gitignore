@@ -1,0 +1,18 @@
+# Ignorer wp-config.php, uploads, cache et autres fichiers sensibles
+wp-config.php
+wp-content/uploads/
+wp-content/cache/
+wp-content/backups/
+wp-content/debug.log
+
+# Fichiers d'environnement et logs
+.env
+*.log
+
+# Ignorer les répertoires générés par le système de gestion de paquets
+node_modules/
+vendor/
+
+# Fichiers temporaires de l'éditeur
+*.bak
+*.swp
